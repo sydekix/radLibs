@@ -44,14 +44,14 @@ function restart() {
     location.reload()
 }
 
+// Event Listener for Reload/Restart
+reloadButton.addEventListener('click', restart);
+
 // Event Listeners for Home Screen
 
 sciFiButton.addEventListener('click', sciFiText);
 romComButton.addEventListener('click', romComText);
 fantasyButton.addEventListener('click', fantasyText);
-
-// Event Listener for Reload/Restart
-reloadButton.addEventListener('click', restart);
 
 // SCI-FI FUNCTION PATH
 
