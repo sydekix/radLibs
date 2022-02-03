@@ -2,23 +2,6 @@
 
 User Questionnaire
 
-   1.  Ask user what kind of story they want:
-        - sci-fi
-        - rom-com
-        - fantasy
-
-    2. Through a series of screens, the user will then be prompted to input various parts of speech with which to populate the story.
-        
-
-Story Generation
-
-    The story will be displayed to the user with their input inserted into the story in the appropriate places.
-
-
-********** PSEUDOCODE **********
-
-User Questionnaire
-
     1. Ask user what kind of story they want.
         a. There will be a series of buttons. 
         b. Each button will be tied to an event listener that uses a different function.
