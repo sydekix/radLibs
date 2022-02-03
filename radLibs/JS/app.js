@@ -107,11 +107,6 @@ function collectSciFiNouns() {
         nounArray.push(nounOne, nounTwo, nounThree);
         nounInputDiv.classList.add('d-none');
         sciFiDiv.classList.add('d-none');
-        // nounArray.forEach(function(element){
-        //     element.style.color = "blue";
-        // })
-        // nounArray.forEach(noun=>{noun.style.color="blue"});
-        // nounArray.forEach(element => element.style.color = 'blue');
         inputSciFiVerbs();
     })
 }
