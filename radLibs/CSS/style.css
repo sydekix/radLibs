@@ -1,0 +1,154 @@
+/* PHOTO ATTRIBUTION */
+
+    /* Photo by SJ Objio on Unsplash*/
+    /* sj-objio-XFWiZTa2Ub0-unsplash.jpg */
+
+    /* Photo by Chen Liu on Unsplash*/
+    /* chen-liu-jgt81f_UDuU-unsplash.jpg */
+
+    /* Photo by Mayur Gala on Unsplash*/
+    /* mayur-gala-2PODhmrvLik-unsplash.jpg */
+    
+    /* Photo by realfish on Unsplash */
+    /* realfish-TFTnYwMW5Ao-unsplash.jpg */
+
+body {
+    background-image: url("sj-objio-XFWiZTa2Ub0-unsplash.jpg");
+}
+
+h1 {
+    font-family: 'Luckiest Guy';
+    font-size: 120px;
+    background-color: maroon;
+    color: white;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 50px;
+    padding-bottom: 15px;
+
+}
+
+.col {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.goldenrod {
+    color: goldenrod;
+}
+
+.maroon {
+    color: maroon;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    margin: .25em;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: #e2b93c;
+    color: maroon;
+}
+
+.sci-fi-icon {
+    display: none;
+}
+
+.rom-com-icon {
+    display: none;
+}
+
+.fantasy-icon {
+    display: none;
+}
+
+.color-change:hover {
+    background-color: maroon;
+    transition: 1.5s;
+}
+
+.color-change:not(:hover){
+    transition: 1.5s;
+}
+
+.color-change:hover .icon {
+    color: goldenrod;
+}
+
+#sciFiButton:hover .button-sciFi {
+        display: none;
+ }
+
+#sciFiButton:hover .sci-fi-icon {
+        display: block;
+}
+
+#romComButton:hover .button-romCom {
+    display: none;
+}
+
+#romComButton:hover .rom-com-icon {
+    display: block;
+}
+
+
+#fantasyButton:hover .button-fantasy {
+    display: none;
+}
+
+#fantasyButton:hover .fantasy-icon {
+    display: block;
+}
+
+.icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    color:black;
+  }
+
+.space-theme {
+    background-image: url("chen-liu-jgt81f_UDuU-unsplash.jpg");  
+}
+ 
+.rom-com-theme {
+    background-image: url("mayur-gala-2PODhmrvLik-unsplash.jpg");
+}
+
+.fantasy-theme {
+    background-image: url("realfish-TFTnYwMW5Ao-unsplash.jpg");
+}
+
+li {
+    list-style-type: none;;
+}
+
+.zee-buttons {
+    text-align: center;
+}
+
+.genre-intro {
+
+    max-width: 100%;
+    text-align: center;
+}
+
+.welcome-paragraph {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.reload-button-styling {
+    margin-left: 675px; 
+    margin-bottom: 40px;
+}
+
+#restart {
+    margin: 15px 25px;
+}
